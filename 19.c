@@ -1,3 +1,8 @@
+//Name: Himanshu Shankar Digrase
+//ID: MT2022155
+
+// Question: Create a FIFO file by `mkfifo` library function and `mknod` system call
+
 #include<fcntl.h>
 #include<unistd.h>
 #include<sys/stat.h>

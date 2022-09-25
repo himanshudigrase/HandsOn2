@@ -1,3 +1,8 @@
+//Name: Himanshu Shankar Digrase
+//ID: MT2022155
+
+// Question : Write a program to send and receive data from parent to child vice versa. Use two way communication.
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

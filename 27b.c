@@ -1,3 +1,8 @@
+//Name: Himanshu Shankar Digrase
+//ID: MT2022155
+
+// Question : Write a program to receive messages from the message queue with `IPC_NOWAIT` as a flag
+
 #include<sys/types.h>
 #include<sys/ipc.h>
 #include<sys/msg.h>

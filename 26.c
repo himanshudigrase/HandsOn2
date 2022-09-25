@@ -1,5 +1,6 @@
 //Name: Himanshu Shankar Digrase
 //ID: MT2022155
+// Question : Write a program to send messages to the message queue. Check `ipcs -q`
 
 
 #include<sys/types.h>

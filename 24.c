@@ -1,3 +1,8 @@
+//Name: Himanshu Shankar Digrase
+//ID: MT2022155
+// Question : Write a program to create a message queue and print the key and message queue id.
+
+
 #include<sys/types.h> // for ftok and msgget
 #include<sys/ipc.h> // same
 #include<sys/msg.h> // for msgget

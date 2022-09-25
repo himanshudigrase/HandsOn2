@@ -1,3 +1,9 @@
+//Name: Himanshu Shankar Digrase
+//ID: MT2022155
+
+
+// Question : Write two programs so that both can communicate by FIFO - Use two way communications.
+
 #include<fcntl.h>
 #include<unistd.h>
 #include<sys/types.h>

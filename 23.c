@@ -1,3 +1,8 @@
+//Name: Himanshu Shankar Digrase
+//ID: MT2022155
+
+// Question : Write a program to print the maximum number of files can be opened within a process and size of a pipe (circular buffer).
+
 #include<stdio.h>
 #include<sys/types.h>
 #include<sys/stat.h>

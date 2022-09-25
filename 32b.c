@@ -1,7 +1,6 @@
 //Name: Himanshu Shankar Digrase
 //ID: MT2022155
 
-
 // Question : Write a program to implement semaphore to protect any critical section - Protect shared memory from concurrent write access
 
 #include <sys/ipc.h>   // Import for `ftok`, `semget`, `semctl`, `shmget`

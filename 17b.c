@@ -1,3 +1,9 @@
+//Name: Himanshu Shankar Digrase
+//ID: MT2022155
+
+// Question : Write a program to execute `ls -l | wc`. Use `dup2`
+
+
 #include<unistd.h>
 #include<sys/types.h>
 #include<stdio.h>

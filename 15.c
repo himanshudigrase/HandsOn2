@@ -1,3 +1,8 @@
+//Name: Himanshu Shankar Digrase
+//ID: MT2022155
+// Question : Write a simple program to send some data from parent to the child process.
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>

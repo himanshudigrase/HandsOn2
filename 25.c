@@ -1,3 +1,19 @@
+//Name: Himanshu Shankar Digrase
+//ID: MT2022155
+
+
+/* Question : Write a program to print a message queue's (use `msqid_ds` and `ipc_perm` structures)
+    1. Access permission 
+    2. `uid`, `gid` 
+    3. Time of last message sent and received 
+    4. Time of last change in the message queue
+    5. Size of the queue 
+    6. Number of messages in the queue
+    7. Maximum number of bytes allowed
+    8. PID of the `msgsnd` and `msgrcv`
+*/
+
+
 #include<sys/types.h>
 #include<sys/ipc.h>
 #include<sys/msg.h>
