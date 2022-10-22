@@ -26,7 +26,7 @@ void main(int argc, char *argv[])
         timer.it_interval.tv_sec = 0;
         timer.it_interval.tv_usec = 0;
         timer.it_value.tv_sec = 10;
-        timer.it_value.tv_usec = 0;
+        timer.it_value.tv_usec = 0;          // if both of it value fields are zero, then timer is disarmed
     }
     else if ((int)(*argv[1] - 48) == 2)
     {
