@@ -13,6 +13,9 @@ void main(int argc, char *argv[])
     int timerStatus; // Determines success of `setitimer` call
 
     struct itimerval timer;
+    
+    //it_interval = interval for periodic timer
+    //it_value = time until next expiration
 
     if (argc != 2)
     {
@@ -36,8 +39,15 @@ void main(int argc, char *argv[])
         timer.it_value.tv_sec = 0;
         timer.it_value.tv_usec = 10000;
     }
-
+// getitimer and setitimer provides access to interval timers i:e timers that expire and send a signal when expired
     timerStatus = setitimer(ITIMER_REAL, &timer, 0);
+    //structure setitimer(which timer val, newVal, Oldval)
+    
+    //three types of which timer val
+    //1.Itimer_real-counts time in real time,at expiration, sigalrm is generated
+    //2.Itimer_virtual-counts against usermode cpu time consumed by processi:e cpu time consumed by threads of process
+    //at expiation sigvtalrm is generated
+    //3.ITImer_prof-counts total (usr+system)cpu time consumed by process,at expiration SIGPROF is generated
     if (timerStatus == -1)
         perror("Error while setting an interval timer!");
 
