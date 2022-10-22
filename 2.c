@@ -4,6 +4,14 @@
 
 // Question : Write a program to print the system resource limits. Use `getrlimit` system call.
 
+//getrlimit andsetrlimit sys calls has asssociated soft and hard limits
+//soft limit is the value set by kernel for corres resource
+// hard limit acts as ceil value for softlimit
+
+//value rlim_infinity denotes no limit on resource
+
+
+
 #include <sys/time.h>     // Import for `getrlimit`
 #include <sys/resource.h> // Import for `getrlimit`
 #include <stdio.h>        // Import for `printf` & `perror`
