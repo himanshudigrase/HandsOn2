@@ -26,6 +26,8 @@ void main()
     long value;
 
 
+    // sysconf - get config info at runtime
+    
     // _SC_ARG_MAX -  Maximum length of the arguments to the exec family of functions.
     value = sysconf(_SC_ARG_MAX);
     if(value == -1)
